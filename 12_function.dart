@@ -22,6 +22,8 @@ void main(List<String> args) {
   birthday3("ucup", age: 25);
   birthday3("putin", weight: 70.5);
   birthday3("Vladimir", height: 180);
+  print("luas lingkaran: ${luaslingkaran(10)}");
+  print("kelilinglingkaran: ${kelilinglingkaran(10)}");
 
   /**
    * untuk fuction dengan parameter optional
@@ -48,3 +50,25 @@ void birthday3(String name, {int age = 17, weight = 66.6, height = 180}) {
     """Happy birthday $name, yang ke $age, beratmu $weight tinggi mu $height""",
   );
 }
+
+/**
+ * Arrow fuction dan fuction
+ * with return value
+ * memiliki parameter r (jari-jari)
+ */
+//Buat variabel global
+const pi = 3.14; //variabel constan global
+
+num luaslingkaran(num r) {
+  return 3.14 * r * r;
+}
+
+//Arrow fuction
+num kelilinglingkaran(num r) => 2 * pi * r;
+
+num luaspersegi(num sisi) => sisi * sisi;
+/**
+ * => adalah arrow function
+ * hanya dapat digunakan untuk fuction
+ * yang memiliki satu bari kode
+ */
