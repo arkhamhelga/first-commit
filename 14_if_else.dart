@@ -33,11 +33,10 @@ void main(List<String> args) {
     print('enggak capek, gas lanjut dicoding');
   }
 
-  // 7,16
+  // 7 buka, 16 tutup, 24 jam saat ini
   if (jamsekarang < jambuka) {
     print('Toko masih tutup');
   } else if (jamsekarang == jamsekarang >= 7 && jamtutup <= 16) {
-    //24 == 7 &&
     //24 == 7 && 16 //lewat jam
     print('Toko Buka');
   } else if (jamsekarang >= jamtutup) {
