@@ -1,4 +1,18 @@
 void main(List<String> args) {
+  
+  /**
+   * program menggunkan stdin (input) nilai ujian
+   * var nilaiujian tipe data double
+   * ketentuan nilai hasilnya ada dibawah ini
+   * jika nilai kurang dari 0 maka outputnya
+   * tidak teridentifikasi (tidak terdaftar)"
+   * * jika nilai lebih dari 100 maka outputnya
+   * "ini adalah cheater"
+   * 
+   * Nilai anda "A/B/C/D/E"
+   * A-C Itu lulus dan D-E Itu remedial
+   */
+  
   /**
    * if else
    * jika suatu code memiliki kondisi yang terpenuhi
