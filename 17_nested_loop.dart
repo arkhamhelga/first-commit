@@ -15,9 +15,9 @@ void main(List<String> args) {
 
     print(bintang);
   }
-//soal 
+  //soal
   for (var i = 5; i >= 1; i++) {
-
+    //print('baris ke $i');
     var bintang = '';
     for (var j = 1; j <= i; j++) {
       bintang += '*';
