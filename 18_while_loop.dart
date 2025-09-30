@@ -19,6 +19,6 @@ void main(List<String> args) {
   while (angka >= 0) {
     //kode yang diulang
     print('ini baris ke $angka');
-    angka--;
+    angka--5;
   }
 }
