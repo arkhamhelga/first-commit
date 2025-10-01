@@ -30,5 +30,27 @@ void main(List<String> args) {
       break; //stop
     default:
       print('operator tidak valid'); //default
+
+    /**
+     * buatkan perhitungan dengan inputan (menggunakan stdin dan stdout)
+     *  var angkapertama, angkakedua, simbolnya
+     * +,-,*,/,%,~/ == simbolnya
+     * 
+     * buatkan pengecekan hari dari senin-jumat
+     * "ini adalah hari kerja"
+     * hari dari sabtu-ahad itu
+     * "ini adalah hari libur"
+     * tidak sensitive cast (kalau sensitive betul2 sama (identik))
+     * senin - senin (sensitive cast)
+     * senin - SENIN (tidak sensitive cast)
+     * 
+     * buat pengecekan kendaraan
+     * mobil
+     * motor
+     * Kapal
+     * tidak teridentifikasi
+     * 
+     * bagaimana cara menggabungkan cast yang sama
+     */
   }
 }

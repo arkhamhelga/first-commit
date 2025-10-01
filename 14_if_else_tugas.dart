@@ -24,7 +24,11 @@ void main(List<String> args) {
   var B = 86 - 90;
   var A = 91 - 100;
 
-  
+   if (A >= 100 - 91) {
+    print('selamat anda lulus ujian');
+  } else {
+    print('anda akan remedial');
+  }
 
 
 }
